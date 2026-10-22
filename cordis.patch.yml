@@ -1,0 +1,5 @@
+# Loader row for dsh-zoom-viewer: a browser-side renderer for the right-sidebar
+# document preview. The plugin contributes no host service, so it takes no config.
+- insert:
+    - id: zoom-viewer
+      name: dsh-zoom-viewer

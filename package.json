@@ -1,0 +1,67 @@
+{
+  "name": "dsh-zoom-viewer",
+  "version": "0.1.0",
+  "description": "Zoom and pan image viewer for the DSH right sidebar: pointer-anchored wheel zoom, drag to pan, double-click to reset, fit / width / 1:1 toolbar controls and a fullscreen overlay.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1378616343/dsh-zoom-viewer.git"
+  },
+  "homepage": "https://github.com/1378616343/dsh-zoom-viewer#readme",
+  "bugs": {
+    "url": "https://github.com/1378616343/dsh-zoom-viewer/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "sidebar",
+    "image",
+    "viewer",
+    "zoom"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-sidebar-documentpreview"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0 <20"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}

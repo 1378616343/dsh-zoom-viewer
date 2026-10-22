@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Zoom image viewer",
+    "description": "Sidebar image renderer: cursor-anchored wheel zoom, drag panning, fit / 1:1 modes and double-click reset."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Zoom Image Viewer",
+    "zh": "侧边栏图片缩放"
+  },
+  "description": {
+    "en": "Adds pointer-anchored wheel zoom, drag-to-pan, double-click reset, fit / width / 1:1 toolbar controls and a fullscreen overlay to images opened in the DSH right sidebar.",
+    "zh": "为 DSH 右侧栏里的图片加上以光标为锚点的滚轮缩放、拖拽平移、双击复位、适应 / 宽 / 1:1 工具栏与全屏浮层。"
+  },
+  "metadata": {
+    "categories": {
+      "images": {
+        "title": {
+          "en": "Images",
+          "zh": "图片"
+        }
+      }
+    },
+    "labels": {
+      "sidebar": {
+        "title": {
+          "en": "Sidebar",
+          "zh": "侧边栏"
+        }
+      },
+      "zoom": {
+        "title": {
+          "en": "Zoom",
+          "zh": "缩放"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-zoom-viewer",
+      "title": {
+        "en": "Zoom Image Viewer",
+        "zh": "侧边栏图片缩放"
+      },
+      "description": {
+        "en": "Adds pointer-anchored wheel zoom, drag-to-pan, double-click reset, fit / width / 1:1 toolbar controls and a fullscreen overlay to images opened in the DSH right sidebar.",
+        "zh": "为 DSH 右侧栏里的图片加上以光标为锚点的滚轮缩放、拖拽平移、双击复位、适应 / 宽 / 1:1 工具栏与全屏浮层。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgPHJlY3QgeD0iMi41IiB5PSI0LjUiIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMSIgcng9IjEuNiIgLz4KICA8Y2lyY2xlIGN4PSI2LjgiIGN5PSI4LjYiIHI9IjEuMyIgLz4KICA8cGF0aCBkPSJNNC4yIDE0LjJsMy40LTMuMyAzLjEgMyIgLz4KICA8Y2lyY2xlIGN4PSIxNi40IiBjeT0iMTQuNCIgcj0iNC4xIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDE3LjZsMi40IDIuNCIgLz4KPC9zdmc+",
+      "author": "1378616343",
+      "homepage": "https://github.com/1378616343/dsh-zoom-viewer#readme",
+      "repository": {
+        "url": "https://github.com/1378616343/dsh-zoom-viewer"
+      },
+      "metadata": {
+        "category": "images",
+        "keywords": [
+          "dsh-plugin",
+          "dsh",
+          "deepseek-harness",
+          "plugin",
+          "sidebar",
+          "image",
+          "viewer",
+          "zoom"
+        ],
+        "labels": [
+          "sidebar",
+          "zoom"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792657652,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
