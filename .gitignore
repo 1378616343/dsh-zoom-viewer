@@ -1,2 +1,5 @@
 node_modules/
 *.tgz
+
+# 内部笔记，不上传
+NOTES.md
